@@ -1,0 +1,42 @@
+/* Style for Home Page */
+
+
+/* Style for River Level */
+canvas {
+    display: block;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px black solid;
+
+}
+
+@media screen and (min-width: 1200px) {
+    /* Styles for Desktops */
+    .charts-container {
+        display: grid;
+        grid-template-columns: repeat(2, 500px);
+        gap: 10px;
+    }
+  }
+
+
+  /* Style for Navbar */
+
+
+
+  /* Style for Hamburger Menu */
+
+  /* Style for Canoe Rental Page */
+
+  /* Style for Lodging Page */
+
+  /*Style for Plan Your Experience Page */
+
+  S
+
+
+
+  
+
+
+
