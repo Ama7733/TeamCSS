@@ -351,7 +351,7 @@ html {
    bottom: 0;
    width: 100%;
    height: 60px;
-   background-color:rgb(255,255,255, .8);
+   background-color:rgb(255,255,255, .7);
    border: 0px;
    box-shadow: 0px 4px 5px 0px rgb(0 0 0 / 20%);
    -webkit-box-shadow: 0px 4px 5px 0px rgb(0 0 0 / 20%);
@@ -363,7 +363,8 @@ html {
 
 .button a{
   margin: 10px auto;
-  color: #425C68;
+  color: #BF382C;
+  font-size: 2em;
 }
 
 .button-container{
@@ -398,6 +399,10 @@ html {
       .carousel{
         width: 100vw;
         max-width: 90%;
+    }
+
+    .your-plan{
+      display: none;
     }
     
     
