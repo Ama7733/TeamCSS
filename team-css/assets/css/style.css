@@ -111,7 +111,14 @@ html {
     align-items: center;
   }
   
-  
+  footer{
+    background:pink ;
+  }
+
+  .brand h1, .brand h2{
+    margin:0;
+    background: pink;
+  }
   
   
   /*--HEADER.PRIMARY-BANNER---*/
@@ -332,6 +339,10 @@ html {
     width: 100%;
   }
   
+ .lodging{
+background: pink;
+}
+
   /*--MEDIA QUERIES FOR SCREEN SIZES---*/
   
   @media screen and (min-width: 667px){
@@ -409,7 +420,7 @@ html {
     
    
     
-    .post{
+    .post:not(.lodging){
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       grid-template-areas:
@@ -417,6 +428,8 @@ html {
         "info carousel"   
     }
   
+
+
     aside{
       margin: 0;
     }
