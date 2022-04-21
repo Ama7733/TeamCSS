@@ -1,3 +1,4 @@
+
 async function displayLevels() {
     "use strict";
     /* URL for AJAX Call */
@@ -23,7 +24,7 @@ async function displayLevels() {
     var dates = [];
     var values = [];
 
-    /* Site 1 */
+    /* BOXLEY */
     /* fLen contains the length of the array (number of values) */
     var fLen = msg1.value.timeSeries[0].values[0].value.length
     for (var i = 0; i < fLen; i++) {
@@ -34,9 +35,10 @@ async function displayLevels() {
     var sitecode = msg1.value.timeSeries[0].sourceInfo.siteCode[0].value
     var siteDescription = msg1.value.timeSeries[0].variable.variableDescription
 
-    /* Put your code here to display a graph of values and dates for Site 1*/
+    /* Put your code here to display a graph of values and dates for BOXLEY*/
 
     var ctx = document.getElementById("chartjs-0");
+
 
     var myChart = new Chart(ctx, {
         "type": "line",
@@ -45,20 +47,27 @@ async function displayLevels() {
             "datasets": [{
                 "data": values,
                 "label": sitecode,
-                fill: false,
+                "fill": false,
+              borderColor:"#2C7366",
+              family: "Arial",
+              lineTension:0.1,
+              pointRadius: 0
             }]
         },
         "options":{ 
-            responsive: false,
-            maintainAspectRatio: true,
+            maintainAspectRatio: false,
             title: {
                 display: true,
-                text: sitename ,
+                text: sitename,
                 fontSize : 18
             },
+          
+           layout: {
+            padding: 10
+           },
 
             legend: {
-                display: false
+                display: false,
              },
              
             scales: {
@@ -81,10 +90,11 @@ async function displayLevels() {
         }
     });
 
+
     var dates = [];
     var values = [];
 
-    /* Site 2 */
+    /* PONCA */
     /* fLen contains the length of the array (number of values) */
     var fLen = msg1.value.timeSeries[1].values[0].value.length
     for (var i = 0; i < fLen; i++) {
@@ -95,7 +105,7 @@ async function displayLevels() {
     var sitecode = msg1.value.timeSeries[1].sourceInfo.siteCode[0].value
     var siteDescription = msg1.value.timeSeries[1].variable.variableDescription
 
-    /* Put your code here to display a graph of values and dates for Site 1*/
+    /* Put your code here to display a graph of values and dates for PONCA*/
 
     var ctx = document.getElementById("chartjs-1");
 
@@ -106,16 +116,21 @@ async function displayLevels() {
             "datasets": [{
                 "data": values,
                 fill: false,
+              borderColor: "#BF382C",
+              pointRadius: 0
             }]
         },
         "options":{ 
-            responsive: false,
-            maintainAspectRatio: true,
+            maintainAspectRatio: false,
             title: {
                 display: true,
-                text: sitename ,
+                text: sitename,
                 fontSize : 18
             },
+          
+            layout: {
+            padding: 10
+           },
 
             legend: {
                 display: false
@@ -144,7 +159,7 @@ async function displayLevels() {
     var dates = [];
     var values = [];
 
-/* Site 3 */
+/* PRUITT */
     /* fLen contains the length of the array (number of values) */
     var fLen = msg1.value.timeSeries[2].values[0].value.length
     for (var i = 0; i < fLen; i++) {
@@ -155,7 +170,7 @@ async function displayLevels() {
     var sitecode = msg1.value.timeSeries[2].sourceInfo.siteCode[0].value
     var siteDescription = msg1.value.timeSeries[2].variable.variableDescription
 
-    /* Put your code here to display a graph of values and dates for Site 1*/
+    /* Put your code here to display a graph of values and dates for PRUITT*/
 
     var ctx = document.getElementById("chartjs-2");
 
@@ -166,16 +181,21 @@ async function displayLevels() {
             "datasets": [{
                 "data": values,
                 fill: false,
+              borderColor: "#3591AF",
+                pointRadius: 0
             }]
         },
         "options":{ 
-            responsive: false,
-            maintainAspectRatio: true,
+            maintainAspectRatio: false,
             title: {
                 display: true,
-                text: sitename ,
+                text: sitename,
                 fontSize : 18
             },
+          
+            layout: {
+            padding: 10
+           },
 
             legend: {
                 display: false
@@ -204,7 +224,7 @@ async function displayLevels() {
     var dates = [];
     var values = [];
 
-/* Site 4 */
+/* CARVER */
     /* fLen contains the length of the array (number of values) */
     var fLen = msg1.value.timeSeries[3].values[0].value.length
     for (var i = 0; i < fLen; i++) {
@@ -215,7 +235,7 @@ async function displayLevels() {
     var sitecode = msg1.value.timeSeries[3].sourceInfo.siteCode[0].value
     var siteDescription = msg1.value.timeSeries[3].variable.variableDescription
 
-    /* Put your code here to display a graph of values and dates for Site 4*/
+    /* Put your code here to display a graph of values and dates for CARVER*/
 
     var ctx = document.getElementById("chartjs-3");
 
@@ -226,16 +246,21 @@ async function displayLevels() {
             "datasets": [{
                 "data": values,
                 fill: false,
+                borderColor: "#BFAB4A",
+                pointRadius: 0
             }]
         },
         "options":{ 
-            responsive: false,
-            maintainAspectRatio: true,
+            maintainAspectRatio: false,
             title: {
                 display: true,
                 text: sitename ,
                 fontSize : 18
             },
+          
+            layout: {
+            padding: 10
+           },
 
             legend: {
                 display: false
