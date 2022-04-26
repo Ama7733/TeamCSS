@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,7 +34,7 @@
 
 <body>
   <div class="container">
- <header id="header" class="primary">
+ <header id="header" class="primary plan-hero">
     <div class="fixed-wrap">
       <div class="banner">
         <a href="javascript:void(0);" class="icon">
@@ -43,32 +42,33 @@
         </a>
         <nav class="menu">
           <ul>
-                <li><a href="javascript:void(0);" class="closebtn" onclick="closeNav()">&times;</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="planexperience.html">Plan Your Experience</a></li>
-                <li><a href="canoerental.html">Canoeing</a></li>
-                <li><a href="lodging.html">Lodging</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="riverlevels.html">Buffalo River Levels</a></li>
-                <li><a href="https://www.google.com/maps/place/36%C2%B001'33.6%22N+93%C2%B021'54.6%22W/@36.0261133,-93.3654997,19z/data=!4m5!3m4!1s0x0:0x5a8038d03ba84f9d!8m2!3d36.026009!4d-93.365169">Directions</a></li>
-          </ul>
+            <ul>
+              <li><a href="javascript:void(0);" class="closebtn" onclick="closeNav()">&times;</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="planexperience.html">Plan Your Experience</a></li>
+              <li><a href="canoerental.html">Canoeing</a></li>
+              <li><a href="lodging.html">Lodging</a></li>
+              <li><a href="riverlevels.html">River Levels</a></li>
+              <li><a href="contact.html">Contact</a></li>          
+              <li><a href="https://www.google.com/maps/place/36%C2%B001'33.6%22N+93%C2%B021'54.6%22W/@36.0261133,-93.3654997,19z/data=!4m5!3m4!1s0x0:0x5a8038d03ba84f9d!8m2!3d36.026009!4d-93.365169" target="_blank">Directions</a></li>
+            </ul>
        </nav>
      </div><!--.banner-->
    </div><!--.fixed-wrap-->
     <!--full-width images-->
-    <div id="planexp" class="bottom-right ">
+    <div class="bottom-right">
       <h1>Plan Your Experience</h1>
       <h2>at Buffalo River,</h2>
       <h3>where your adventure awaits...</h3>
     </div>
   </header>
   <div class="grid">
-   <section class="articles">
+   <section id="experience" class="articles">
      <header>
        <h1>Become A Buffalo River Adventurer</h1>
      </header>
      <p>Take a Break. Experience the Buffalo.</p>
-    <article id="canoeing" class="post">
+        <article id="canoeing" class="post">
         <header>
           <h1>Canoeing</h1>
         </header>
@@ -77,17 +77,67 @@
         <div class="fade carousel">
         <div><img src="assets/img/DSC00181.jpg" alt="1"></div>
         <div><img src="assets/img/DSC_0578.jpg" alt="2"></div>
-        <div><img src="assets/img/DSC06499.jpg" alt="3"></div>
-        <div><img src="assets/img/DSC05830.jpg" alt="4"></div>
-        <div><img src="assets/img/DSC01004.jpg" alt="5"></div>
-        <div><img src="assets/img/DSC04291.jpg" alt="6"></div>
-        <div><img src="assets/img/DSC00441.jpg" alt="7"></div>
+        <div><img src="assets/img/DSC00181.jpg" alt="3"></div>
+        <div><img src="assets/img/DSC_0578.jpg" alt="4"></div>
+        <div><img src="assets/img/DSC00181.jpg" alt="5"></div>
+        <div><img src="assets/img/DSC_0578.jpg" alt="6"></div>
+        <div><img src="assets/img/DSC00181.jpg" alt="7"></div>
       </div>
      </div><!--.carousel-container-->
         <div class="info">
-          <p>March – June is, typically, float trip season on the upper Buffalo National River. Check out the current Buffalo River paddling conditions at <a href="riverlevels.html"> Buffalo River Levels</a>.</p>
+          <p>Sail down the river with our canoeing adventure! Experience the Buffalo’s beauty firsthand as we guide you trail through the outdoors.</p>
+          <p>March – June is, typically, float trip season on the upper Buffalo National River. Check out the current <a href="riverlevels.html"> Buffalo River Levels</a> for paddling conditions.</p>
         <!--DropDown Options-->
-          <p>Dropdowns go here</p>
+        <div class="wrap">
+          <div class="dropdown">
+  <input type="checkbox" class="read-more-state" id="post-1"/>
+        <label for="post-1" class="read-more-trigger"></label>
+
+  <div class="read-more-wrap">
+    <p class="read-more-target">At Buffalo River Adventures, we offer shuttle services to the following put-in/take-outs on the river; Steel Creek, Kyles, Pruitt, Ozark, Erbie, Hasty, and Hwy 123 (Carver). The approximate float distance and times are calculated below as well. </p>
+     <table class="read-more-target">
+  <tr>
+    <th scope="col">From Ponca To:</th>
+    <th scope="col">Price</th>
+    <th scope="col">Distance</th>
+    <th scope="col">Duration</th>
+
+  </tr>
+<tbody>
+  <tr>
+    <td>Steel Creek</td>
+    <td>$21</td>
+  </tr>
+  <tr>
+    <td>Kyles</td>
+    <td>$40</td>
+  </tr>
+  <tr>
+    <td>Pruitt (or Kyles to Pruitt)</td>
+    <td>$55</td>
+  </tr>
+    <tr>
+    <td>Ozark</td>
+    <td>$61</td>
+  </tr>
+    <tr>
+    <td>Erbie</td>
+    <td>$92</td>
+  </tr>
+    <tr>
+    <td>Hasty</td>
+    <td>$55</td>
+  </tr>
+    <tr>
+    <td>Hwy 123 (Carver)</td>
+    <td>$65</td>
+  </tr>
+</tbody>
+</table>
+
+  </div>
+</div>
+        </div> 
       </div>
       </article>
       <aside>
@@ -108,9 +158,32 @@
       </div>
       </div>
         <div class="info">
-          <p>Bear Ridge offers two guests a cozy, fully furnished cabin for a romantic getaway in upper Buffalo River country.  The cabin has a main floor and a sleeping loft with a queen-size bed.  We are pleased to offer complimentary WIFI with this cabin rental. The cabin's kitchen features a dining bar and is fully furnished with appliances, basic meal prep utensils and cookware, a coffeemaker, and even a dishwasher.  In the cabin's bathroom, you'll find a lovely stone walk-in shower, along with towels, soap, and shampoo. </p>
+          <p>Bear Ridge offers two guests a cozy, fully furnished cabin for a romantic getaway in upper Buffalo River country.  The cabin has a main floor and a sleeping loft with a queen-size bed.  We are pleased to offer complimentary WIFI with this cabin rental.</p>
+          <p>The cabin's kitchen features a dining bar and is fully furnished with appliances, basic meal prep utensils and cookware, a coffeemaker, and even a dishwasher.  In the cabin's bathroom, you'll find a lovely stone walk-in shower, along with towels, soap, and shampoo</p>
         <!--DropDown Options-->
-          <p>Dropdowns go here</p>    
+        <div class="wrap">
+      <div class="dropdown">
+  <input type="checkbox" class="read-more-state" id="post-2" />
+        <label for="post-2" class="read-more-trigger"></label>
+
+  <ul class="read-more-wrap">
+  <li class="read-more-target">Hot tub and stone firepit on patio</li>
+  <li class="read-more-target">Private creekside sitting area (Coming soon!)</li>
+  <li class="read-more-target">Wifi (no cell service in the area)</li>
+  <li class="read-more-target">42” TV with satellite/local channels, BluRay player, movies</li>
+  <li class="read-more-target">Fully-equipped kitchen – microwave, dishwasher, coffeemaker, toaster</li>
+  <li class="read-more-target">Dishes, pots and pans, cleaning supplies</li>
+  <li class="read-more-target">All bed and bath linens</li>
+  <li class="read-more-target">Front and back porches with seating
+  <li class="read-more-target">Outdoor gas grill</li>
+  <li class="read-more-target">Mini-split HVAC plus electric “fireplace” heater</li>
+  <li class="read-more-target">Parking in front of cabin</li>
+  <li class="read-more-target">Firewood for outdoor fire pit</li>
+  <li class="read-more-target">Convenient to the Buffalo Outdoor Center store and the Ponca Elk Education Center</li>
+  <li class="read-more-target">Just a short drive to the Ponca Access and the Lost Valley Trailhead</li>
+  </ul>
+</div>
+      </div>   
         </div>
       </article>
       <aside>
@@ -135,31 +208,50 @@
         <div class="info">
           <p>Canoeing, not your thing? Maybe you have your own in mind, or maybe you need a little extra push on the right path to lead your venture. Let us suggest other activities that may strike a chord with you! The buffalo can provide an abundance of other activities.</p>
         <!--DropDown Options-->
-          <p>Dropdowns go here</p>    
+        <div class="wrap">
+          <div class="dropdown">
+  <input type="checkbox" class="read-more-state" id="post-3"/>
+        <label for="post-3" class="read-more-trigger"></label>
+
+  <ul class="read-more-wrap">
+    <li class="read-more-target"><a href="https://www.nps.gov/thingstodo/hike-the-buffalo-river-trail.htm" target="_blank">Hiking</a></li>
+  <li class="read-more-target"><a href="https://www.arkansas.com/ponca/attractions-culture/buffalo-river-canopy-tour">Zip-lining</a></li>
+  <li class="read-more-target"><a href="https://www.theoutbound.com/arkansas/camping/camp-along-the-buffalo-national-river">Camping</a></li>
+  <li class="read-more-target"><a href="https://www.nps.gov/buff/planyourvisit/fishing.htm">Fishing</a></li>
+  <li class="read-more-target">and, of course, swimming!</li>
+  </ul>
+</div>
+        </div>        
         </div>
       </article>
    </section><!--.articles-->
-  <footer>
-        <div class="brand">
-        <h4>Buffalo River Adventurers</h4>
-        <h5>Where Your Adventure Awaits</h5>
-        </div>
+   <footer>
+    <div class="footer-container">
+    <div class="brand">
+      <h4>Buffalo River Adventurers</h4>
+      <h5>Where Your Adventure Awaits</h5>
+    </div>
         <div class="location">
           <address>
-            Street city state zip
+            36°01'33.6"N 93°21'54.6"W
           </address>
-          </br>
+          <br>
         </div>
         <div class="additional-info">
-         <a href="" title="">Directions</a>
-         <a href=" " class=“btn” >Current River Levels</a>
+          <ul>
+            <li><a href="https://www.google.com/maps/place/36%C2%B001'33.6%22N+93%C2%B021'54.6%22W/@36.0261133,-93.3654997,19z/data=!4m5!3m4!1s0x0:0x5a8038d03ba84f9d!8m2!3d36.026009!4d-93.365169" title="Directions are tricky in this area. Here are the Lat/Lon Coordinates and Map links." target="_blank">Directions</a></li>
+            <li><a href="riverlevels.html" class=“button” >Current River Levels</a></li>
+          </ul>
         </div>
         <div class="contact">
-         <p>Phone</p>
-         <a href="" title="">Contact Us</a>
+          <ul>
+            <li>Phone</li>
+            <li><a href="contact.html">Contact Us</a></li>
+         </ul>
         </div>
         <div class=social-media-links>
         <h6>&copy; 2022 Buffalo River Adventurers</h6>
+        </div>
         </div>
    </footer>
  </div> <!--.grid-->
@@ -169,8 +261,10 @@
    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.21.0/prism.min.js"></script>       
    <script src="assets/js/slick.js"></script>
    <script src="assets/js/script.js"></script>
-   <script src="assets/js/carousel.js"></script>
    <script src="assets/js/menu.js"></script>
+   <script src="assets/js/carousel.js"></script>
+
+
   </body>
 
 </html>
