@@ -85,6 +85,8 @@ h1{
 }
 
 
+
+
 h2{
   font-size: 1.7em;
   font-family: campaign-slab, serif; 
@@ -1121,6 +1123,10 @@ article .lodge{
   }
 
  
+  }
 
 
+  @media screen and (min-width: 800px){
+
+    
   }
