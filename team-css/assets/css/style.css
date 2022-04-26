@@ -104,6 +104,10 @@ h3{
   font-weight: 500;
 }
 
+#bralogo{
+  width: 2000px;
+  object-fit: contain;
+}
 
 .articles .post:not(
   #canoeing,
@@ -518,7 +522,7 @@ td:nth-child(3n+1){
   background-color:rgb(255,255,255, .4);
 }
 
-#wufoo-wrbqika10iahwu{
+#wufoo-msye1ij0k06pmc{
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
