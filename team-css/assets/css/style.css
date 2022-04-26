@@ -107,8 +107,11 @@ h3{
 .bralogo{
   height: auto;
     width: auto;
-    max-height: 70px;
+    max-height: 50px;
     max-width: 250px;
+    line-height: 60px;
+    vertical-align: middle;
+    padding: 0;
 }
 
 .articles .post:not(
